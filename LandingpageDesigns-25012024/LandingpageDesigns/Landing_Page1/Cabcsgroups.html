@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/grouplogos.css" />
+  </head>
+  <body>
+    <div sectionId="logo-slide-section">
+      <div class="logos">
+        <div class="logo-slide">
+          
+          <img src="/image/forwardsystem-logo.svg" />
+          <img src="/image/human_logo.png" />
+          <img src="/image/india-logo.svg" />
+          <img src="/image/nwc-logo.svg" />
+          <img src="/image/patcore-logo.svg" />
+          <img src="/image/qsfix-logo.svg" />
+        </div>
+      </div>
+    </div>
+    
+    <script>
+      var copy = document.querySelector(".logo-slide").cloneNode(true);
+      document.querySelector(".logos").appendChild(copy);
+    </script>
+  </body>
+</html>
